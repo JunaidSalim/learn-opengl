@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/cmake_install.cmake")
+  include("C:/Users/JS/Desktop/OpenGL_Game/build/libs/internal_libs/cmake_install.cmake")
 
 endif()
 

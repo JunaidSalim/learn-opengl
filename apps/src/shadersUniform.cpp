@@ -134,9 +134,9 @@ int main() {
     glUseProgram(shaderProgram);
 
     double timeValue = glfwGetTime();
-    float greenValue = static_cast<float>(sin(timeValue) / 2.0 + 0.5);
+    float colorValue = static_cast<float>(sin(timeValue) / 2.0 + 0.5);
     int vertexColorLocation = glGetUniformLocation(shaderProgram, "tColor");
-    glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+    glUniform4f(vertexColorLocation, colorValue, colorValue, colorValue, 1.0f);
 
     glBindVertexArray(VAO);
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);

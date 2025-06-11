@@ -67,6 +67,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/JS/Desktop/OpenGL_Game/libs/external_libs/glfw-3.4/CMakeLists.txt"
   "C:/Users/JS/Desktop/OpenGL_Game/libs/external_libs/glfw-3.4/docs/CMakeLists.txt"
   "C:/Users/JS/Desktop/OpenGL_Game/libs/external_libs/glfw-3.4/src/CMakeLists.txt"
+  "C:/Users/JS/Desktop/OpenGL_Game/libs/internal_libs/CMakeLists.txt"
+  "C:/Users/JS/Desktop/OpenGL_Game/libs/internal_libs/shaders/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -88,6 +90,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "libs/external_libs/glfw-3.4/src/glfw3.pc"
   "libs/external_libs/glfw-3.4/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/external_libs/glfw-3.4/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/internal_libs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/internal_libs/shaders/CMakeFiles/CMakeDirectoryInformation.cmake"
   "apps/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -97,9 +101,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "libs/external_libs/glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
+  "libs/internal_libs/shaders/CMakeFiles/shaders.dir/DependInfo.cmake"
   "apps/CMakeFiles/triangle.dir/DependInfo.cmake"
   "apps/CMakeFiles/blendTriangle.dir/DependInfo.cmake"
   "apps/CMakeFiles/rectangle.dir/DependInfo.cmake"
   "apps/CMakeFiles/temp.dir/DependInfo.cmake"
   "apps/CMakeFiles/shadersUniform.dir/DependInfo.cmake"
+  "apps/CMakeFiles/shadersClass.dir/DependInfo.cmake"
   )

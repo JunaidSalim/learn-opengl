@@ -8,6 +8,8 @@
 		"C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glfw-3.4/cmake_install.cmake",
 		"C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glfw-3.4/src/cmake_install.cmake",
 		"C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glfw-3.4/docs/cmake_install.cmake",
+		"C:/Users/JS/Desktop/OpenGL_Game/build/libs/internal_libs/cmake_install.cmake",
+		"C:/Users/JS/Desktop/OpenGL_Game/build/libs/internal_libs/shaders/cmake_install.cmake",
 		"C:/Users/JS/Desktop/OpenGL_Game/build/apps/cmake_install.cmake"
 	],
 	"Parallel" : false

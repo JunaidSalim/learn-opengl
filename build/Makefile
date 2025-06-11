@@ -213,6 +213,19 @@ update_mappings/fast:
 .PHONY : update_mappings/fast
 
 #=============================================================================
+# Target rules for targets named shaders
+
+# Build rule for target.
+shaders: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shaders
+.PHONY : shaders
+
+# fast build rule for target.
+shaders/fast:
+	$(MAKE) $(MAKESILENT) -f libs\internal_libs\shaders\CMakeFiles\shaders.dir\build.make libs/internal_libs/shaders/CMakeFiles/shaders.dir/build
+.PHONY : shaders/fast
+
+#=============================================================================
 # Target rules for targets named triangle
 
 # Build rule for target.
@@ -277,6 +290,19 @@ shadersUniform/fast:
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/build
 .PHONY : shadersUniform/fast
 
+#=============================================================================
+# Target rules for targets named shadersClass
+
+# Build rule for target.
+shadersClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shadersClass
+.PHONY : shadersClass
+
+# fast build rule for target.
+shadersClass/fast:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersClass.dir\build.make apps/CMakeFiles/shadersClass.dir/build
+.PHONY : shadersClass/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -295,6 +321,8 @@ help:
 	@echo ... glad
 	@echo ... glfw
 	@echo ... rectangle
+	@echo ... shaders
+	@echo ... shadersClass
 	@echo ... shadersUniform
 	@echo ... temp
 	@echo ... triangle
