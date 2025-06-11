@@ -48,6 +48,7 @@ C:/Users/JS/Desktop/OpenGL_Game/build/apps/CMakeFiles/triangle.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/apps/CMakeFiles/blendTriangle.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/apps/CMakeFiles/rectangle.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/apps/CMakeFiles/temp.dir
+C:/Users/JS/Desktop/OpenGL_Game/build/apps/CMakeFiles/shadersUniform.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/apps/CMakeFiles/edit_cache.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/apps/CMakeFiles/rebuild_cache.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/apps/CMakeFiles/list_install_components.dir

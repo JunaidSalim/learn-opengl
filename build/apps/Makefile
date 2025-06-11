@@ -216,6 +216,20 @@ temp/fast:
 	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/build
 .PHONY : temp/fast
 
+# Convenience name for target.
+apps/CMakeFiles/shadersUniform.dir/rule:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/shadersUniform.dir/rule
+.PHONY : apps/CMakeFiles/shadersUniform.dir/rule
+
+# Convenience name for target.
+shadersUniform: apps/CMakeFiles/shadersUniform.dir/rule
+.PHONY : shadersUniform
+
+# fast build rule for target.
+shadersUniform/fast:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/build
+.PHONY : shadersUniform/fast
+
 src/blendTriangle.obj: src/blendTriangle.cpp.obj
 .PHONY : src/blendTriangle.obj
 
@@ -263,6 +277,30 @@ src/rectangle.s: src/rectangle.cpp.s
 src/rectangle.cpp.s:
 	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.s
 .PHONY : src/rectangle.cpp.s
+
+src/shadersUniform.obj: src/shadersUniform.cpp.obj
+.PHONY : src/shadersUniform.obj
+
+# target to build an object file
+src/shadersUniform.cpp.obj:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj
+.PHONY : src/shadersUniform.cpp.obj
+
+src/shadersUniform.i: src/shadersUniform.cpp.i
+.PHONY : src/shadersUniform.i
+
+# target to preprocess a source file
+src/shadersUniform.cpp.i:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.i
+.PHONY : src/shadersUniform.cpp.i
+
+src/shadersUniform.s: src/shadersUniform.cpp.s
+.PHONY : src/shadersUniform.s
+
+# target to generate assembly for a file
+src/shadersUniform.cpp.s:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.s
+.PHONY : src/shadersUniform.cpp.s
 
 src/temp.obj: src/temp.cpp.obj
 .PHONY : src/temp.obj
@@ -326,6 +364,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... blendTriangle
 	@echo ... rectangle
+	@echo ... shadersUniform
 	@echo ... temp
 	@echo ... triangle
 	@echo ... src/blendTriangle.obj
@@ -334,6 +373,9 @@ help:
 	@echo ... src/rectangle.obj
 	@echo ... src/rectangle.i
 	@echo ... src/rectangle.s
+	@echo ... src/shadersUniform.obj
+	@echo ... src/shadersUniform.i
+	@echo ... src/shadersUniform.s
 	@echo ... src/temp.obj
 	@echo ... src/temp.i
 	@echo ... src/temp.s

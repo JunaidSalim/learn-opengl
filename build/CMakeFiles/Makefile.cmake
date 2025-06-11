@@ -101,4 +101,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "apps/CMakeFiles/blendTriangle.dir/DependInfo.cmake"
   "apps/CMakeFiles/rectangle.dir/DependInfo.cmake"
   "apps/CMakeFiles/temp.dir/DependInfo.cmake"
+  "apps/CMakeFiles/shadersUniform.dir/DependInfo.cmake"
   )

@@ -264,6 +264,19 @@ temp/fast:
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/build
 .PHONY : temp/fast
 
+#=============================================================================
+# Target rules for targets named shadersUniform
+
+# Build rule for target.
+shadersUniform: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shadersUniform
+.PHONY : shadersUniform
+
+# fast build rule for target.
+shadersUniform/fast:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/build
+.PHONY : shadersUniform/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -282,6 +295,7 @@ help:
 	@echo ... glad
 	@echo ... glfw
 	@echo ... rectangle
+	@echo ... shadersUniform
 	@echo ... temp
 	@echo ... triangle
 .PHONY : help
