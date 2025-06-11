@@ -87,11 +87,15 @@ clean: apps/clean
 # Recursive "all" directory target.
 apps/all: apps/CMakeFiles/triangle.dir/all
 apps/all: apps/CMakeFiles/blendTriangle.dir/all
+apps/all: apps/CMakeFiles/rectangle.dir/all
+apps/all: apps/CMakeFiles/temp.dir/all
 .PHONY : apps/all
 
 # Recursive "codegen" directory target.
 apps/codegen: apps/CMakeFiles/triangle.dir/codegen
 apps/codegen: apps/CMakeFiles/blendTriangle.dir/codegen
+apps/codegen: apps/CMakeFiles/rectangle.dir/codegen
+apps/codegen: apps/CMakeFiles/temp.dir/codegen
 .PHONY : apps/codegen
 
 # Recursive "preinstall" directory target.
@@ -101,6 +105,8 @@ apps/preinstall:
 # Recursive "clean" directory target.
 apps/clean: apps/CMakeFiles/triangle.dir/clean
 apps/clean: apps/CMakeFiles/blendTriangle.dir/clean
+apps/clean: apps/CMakeFiles/rectangle.dir/clean
+apps/clean: apps/CMakeFiles/temp.dir/clean
 .PHONY : apps/clean
 
 #=============================================================================
@@ -330,7 +336,7 @@ libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/clean:
 libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs\external_libs\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\external_libs\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=29 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=33 "Built target update_mappings"
 .PHONY : libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -347,7 +353,7 @@ update_mappings: libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/
 # codegen rule for target.
 libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f libs\external_libs\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=29 "Finished codegen for target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=33 "Finished codegen for target update_mappings"
 .PHONY : libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/codegen
 
 # clean rule for target.
@@ -363,7 +369,7 @@ apps/CMakeFiles/triangle.dir/all: libs/external_libs/glad/CMakeFiles/glad.dir/al
 apps/CMakeFiles/triangle.dir/all: libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=27,28 "Built target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=31,32 "Built target triangle"
 .PHONY : apps/CMakeFiles/triangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -380,7 +386,7 @@ triangle: apps/CMakeFiles/triangle.dir/rule
 # codegen rule for target.
 apps/CMakeFiles/triangle.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=27,28 "Finished codegen for target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=31,32 "Finished codegen for target triangle"
 .PHONY : apps/CMakeFiles/triangle.dir/codegen
 
 # clean rule for target.
@@ -420,6 +426,72 @@ apps/CMakeFiles/blendTriangle.dir/codegen:
 apps/CMakeFiles/blendTriangle.dir/clean:
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\blendTriangle.dir\build.make apps/CMakeFiles/blendTriangle.dir/clean
 .PHONY : apps/CMakeFiles/blendTriangle.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/rectangle.dir
+
+# All Build rule for target.
+apps/CMakeFiles/rectangle.dir/all: libs/external_libs/glad/CMakeFiles/glad.dir/all
+apps/CMakeFiles/rectangle.dir/all: libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=27,28 "Built target rectangle"
+.PHONY : apps/CMakeFiles/rectangle.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/rectangle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles 26
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/rectangle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles 0
+.PHONY : apps/CMakeFiles/rectangle.dir/rule
+
+# Convenience name for target.
+rectangle: apps/CMakeFiles/rectangle.dir/rule
+.PHONY : rectangle
+
+# codegen rule for target.
+apps/CMakeFiles/rectangle.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=27,28 "Finished codegen for target rectangle"
+.PHONY : apps/CMakeFiles/rectangle.dir/codegen
+
+# clean rule for target.
+apps/CMakeFiles/rectangle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/clean
+.PHONY : apps/CMakeFiles/rectangle.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/temp.dir
+
+# All Build rule for target.
+apps/CMakeFiles/temp.dir/all: libs/external_libs/glad/CMakeFiles/glad.dir/all
+apps/CMakeFiles/temp.dir/all: libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=29,30 "Built target temp"
+.PHONY : apps/CMakeFiles/temp.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/temp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles 26
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/temp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles 0
+.PHONY : apps/CMakeFiles/temp.dir/rule
+
+# Convenience name for target.
+temp: apps/CMakeFiles/temp.dir/rule
+.PHONY : temp
+
+# codegen rule for target.
+apps/CMakeFiles/temp.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=29,30 "Finished codegen for target temp"
+.PHONY : apps/CMakeFiles/temp.dir/codegen
+
+# clean rule for target.
+apps/CMakeFiles/temp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/clean
+.PHONY : apps/CMakeFiles/temp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

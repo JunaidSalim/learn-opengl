@@ -99,4 +99,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   "apps/CMakeFiles/triangle.dir/DependInfo.cmake"
   "apps/CMakeFiles/blendTriangle.dir/DependInfo.cmake"
+  "apps/CMakeFiles/rectangle.dir/DependInfo.cmake"
+  "apps/CMakeFiles/temp.dir/DependInfo.cmake"
   )

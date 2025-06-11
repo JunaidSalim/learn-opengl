@@ -238,6 +238,32 @@ blendTriangle/fast:
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\blendTriangle.dir\build.make apps/CMakeFiles/blendTriangle.dir/build
 .PHONY : blendTriangle/fast
 
+#=============================================================================
+# Target rules for targets named rectangle
+
+# Build rule for target.
+rectangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rectangle
+.PHONY : rectangle
+
+# fast build rule for target.
+rectangle/fast:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/build
+.PHONY : rectangle/fast
+
+#=============================================================================
+# Target rules for targets named temp
+
+# Build rule for target.
+temp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 temp
+.PHONY : temp
+
+# fast build rule for target.
+temp/fast:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/build
+.PHONY : temp/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -255,6 +281,8 @@ help:
 	@echo ... blendTriangle
 	@echo ... glad
 	@echo ... glfw
+	@echo ... rectangle
+	@echo ... temp
 	@echo ... triangle
 .PHONY : help
 
