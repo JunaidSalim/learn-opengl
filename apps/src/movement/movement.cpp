@@ -8,8 +8,6 @@
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
-void calculateTextureDimensions(float* vertices, int vertexCount, int stride, float& halfWidth,
-                                float& halfHeight);
 
 // settings
 const unsigned int SCR_WIDTH = 800;
