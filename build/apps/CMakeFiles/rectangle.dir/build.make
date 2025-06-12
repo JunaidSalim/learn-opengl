@@ -71,29 +71,29 @@ include apps/CMakeFiles/rectangle.dir/flags.make
 apps/CMakeFiles/rectangle.dir/codegen:
 .PHONY : apps/CMakeFiles/rectangle.dir/codegen
 
-apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.obj: apps/CMakeFiles/rectangle.dir/flags.make
-apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.obj: apps/CMakeFiles/rectangle.dir/includes_CXX.rsp
-apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/rectangle.cpp
-apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.obj: apps/CMakeFiles/rectangle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.obj"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.obj -MF CMakeFiles\rectangle.dir\src\rectangle.cpp.obj.d -o CMakeFiles\rectangle.dir\src\rectangle.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\rectangle.cpp
+apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj: apps/CMakeFiles/rectangle.dir/flags.make
+apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj: apps/CMakeFiles/rectangle.dir/includes_CXX.rsp
+apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/rectangles/rectangle.cpp
+apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj: apps/CMakeFiles/rectangle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj -MF CMakeFiles\rectangle.dir\src\rectangles\rectangle.cpp.obj.d -o CMakeFiles\rectangle.dir\src\rectangles\rectangle.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\rectangles\rectangle.cpp
 
-apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rectangle.dir/src/rectangle.cpp.i"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\rectangle.cpp > CMakeFiles\rectangle.dir\src\rectangle.cpp.i
+apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.i"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\rectangles\rectangle.cpp > CMakeFiles\rectangle.dir\src\rectangles\rectangle.cpp.i
 
-apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rectangle.dir/src/rectangle.cpp.s"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\rectangle.cpp -o CMakeFiles\rectangle.dir\src\rectangle.cpp.s
+apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.s"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\rectangles\rectangle.cpp -o CMakeFiles\rectangle.dir\src\rectangles\rectangle.cpp.s
 
 # Object files for target rectangle
 rectangle_OBJECTS = \
-"CMakeFiles/rectangle.dir/src/rectangle.cpp.obj"
+"CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj"
 
 # External object files for target rectangle
 rectangle_EXTERNAL_OBJECTS =
 
-apps/rectangle.exe: apps/CMakeFiles/rectangle.dir/src/rectangle.cpp.obj
+apps/rectangle.exe: apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj
 apps/rectangle.exe: apps/CMakeFiles/rectangle.dir/build.make
 apps/rectangle.exe: libs/external_libs/glad/libglad.a
 apps/rectangle.exe: libs/external_libs/glfw-3.4/src/libglfw3.a

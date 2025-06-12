@@ -71,29 +71,29 @@ include apps/CMakeFiles/triangle.dir/flags.make
 apps/CMakeFiles/triangle.dir/codegen:
 .PHONY : apps/CMakeFiles/triangle.dir/codegen
 
-apps/CMakeFiles/triangle.dir/src/triangle.cpp.obj: apps/CMakeFiles/triangle.dir/flags.make
-apps/CMakeFiles/triangle.dir/src/triangle.cpp.obj: apps/CMakeFiles/triangle.dir/includes_CXX.rsp
-apps/CMakeFiles/triangle.dir/src/triangle.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/triangle.cpp
-apps/CMakeFiles/triangle.dir/src/triangle.cpp.obj: apps/CMakeFiles/triangle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/triangle.dir/src/triangle.cpp.obj"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/triangle.dir/src/triangle.cpp.obj -MF CMakeFiles\triangle.dir\src\triangle.cpp.obj.d -o CMakeFiles\triangle.dir\src\triangle.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangle.cpp
+apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj: apps/CMakeFiles/triangle.dir/flags.make
+apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj: apps/CMakeFiles/triangle.dir/includes_CXX.rsp
+apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/triangles/triangle.cpp
+apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj: apps/CMakeFiles/triangle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj -MF CMakeFiles\triangle.dir\src\triangles\triangle.cpp.obj.d -o CMakeFiles\triangle.dir\src\triangles\triangle.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangles\triangle.cpp
 
-apps/CMakeFiles/triangle.dir/src/triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/triangle.dir/src/triangle.cpp.i"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangle.cpp > CMakeFiles\triangle.dir\src\triangle.cpp.i
+apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/triangle.dir/src/triangles/triangle.cpp.i"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangles\triangle.cpp > CMakeFiles\triangle.dir\src\triangles\triangle.cpp.i
 
-apps/CMakeFiles/triangle.dir/src/triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/triangle.dir/src/triangle.cpp.s"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangle.cpp -o CMakeFiles\triangle.dir\src\triangle.cpp.s
+apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/triangle.dir/src/triangles/triangle.cpp.s"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangles\triangle.cpp -o CMakeFiles\triangle.dir\src\triangles\triangle.cpp.s
 
 # Object files for target triangle
 triangle_OBJECTS = \
-"CMakeFiles/triangle.dir/src/triangle.cpp.obj"
+"CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj"
 
 # External object files for target triangle
 triangle_EXTERNAL_OBJECTS =
 
-apps/triangle.exe: apps/CMakeFiles/triangle.dir/src/triangle.cpp.obj
+apps/triangle.exe: apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj
 apps/triangle.exe: apps/CMakeFiles/triangle.dir/build.make
 apps/triangle.exe: libs/external_libs/glad/libglad.a
 apps/triangle.exe: libs/external_libs/glfw-3.4/src/libglfw3.a

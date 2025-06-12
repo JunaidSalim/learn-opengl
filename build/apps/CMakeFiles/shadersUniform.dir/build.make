@@ -71,29 +71,29 @@ include apps/CMakeFiles/shadersUniform.dir/flags.make
 apps/CMakeFiles/shadersUniform.dir/codegen:
 .PHONY : apps/CMakeFiles/shadersUniform.dir/codegen
 
-apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj: apps/CMakeFiles/shadersUniform.dir/flags.make
-apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj: apps/CMakeFiles/shadersUniform.dir/includes_CXX.rsp
-apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/shadersUniform.cpp
-apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj: apps/CMakeFiles/shadersUniform.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj -MF CMakeFiles\shadersUniform.dir\src\shadersUniform.cpp.obj.d -o CMakeFiles\shadersUniform.dir\src\shadersUniform.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\shadersUniform.cpp
+apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj: apps/CMakeFiles/shadersUniform.dir/flags.make
+apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj: apps/CMakeFiles/shadersUniform.dir/includes_CXX.rsp
+apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders/shadersUniform.cpp
+apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj: apps/CMakeFiles/shadersUniform.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj -MF CMakeFiles\shadersUniform.dir\src\shaders\shadersUniform.cpp.obj.d -o CMakeFiles\shadersUniform.dir\src\shaders\shadersUniform.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders\shadersUniform.cpp
 
-apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.i"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\shadersUniform.cpp > CMakeFiles\shadersUniform.dir\src\shadersUniform.cpp.i
+apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.i"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders\shadersUniform.cpp > CMakeFiles\shadersUniform.dir\src\shaders\shadersUniform.cpp.i
 
-apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.s"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\shadersUniform.cpp -o CMakeFiles\shadersUniform.dir\src\shadersUniform.cpp.s
+apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.s"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders\shadersUniform.cpp -o CMakeFiles\shadersUniform.dir\src\shaders\shadersUniform.cpp.s
 
 # Object files for target shadersUniform
 shadersUniform_OBJECTS = \
-"CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj"
+"CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj"
 
 # External object files for target shadersUniform
 shadersUniform_EXTERNAL_OBJECTS =
 
-apps/shadersUniform.exe: apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj
+apps/shadersUniform.exe: apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj
 apps/shadersUniform.exe: apps/CMakeFiles/shadersUniform.dir/build.make
 apps/shadersUniform.exe: libs/external_libs/glad/libglad.a
 apps/shadersUniform.exe: libs/external_libs/glfw-3.4/src/libglfw3.a
@@ -102,8 +102,6 @@ apps/shadersUniform.exe: apps/CMakeFiles/shadersUniform.dir/objects1.rsp
 apps/shadersUniform.exe: apps/CMakeFiles/shadersUniform.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable shadersUniform.exe"
 	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\shadersUniform.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying shader files to shadersUniform build directory"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders.vs C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders.fs C:/Users/JS/Desktop/OpenGL_Game/build/apps
 
 # Rule to build all files generated by this target.
 apps/CMakeFiles/shadersUniform.dir/build: apps/shadersUniform.exe

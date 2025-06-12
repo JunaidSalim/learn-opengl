@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/temp.dir/src/temp.cpp.obj"
-  "CMakeFiles/temp.dir/src/temp.cpp.obj.d"
+  "CMakeFiles/temp.dir/src/temp/temp.cpp.obj"
+  "CMakeFiles/temp.dir/src/temp/temp.cpp.obj.d"
   "libtemp.dll.a"
   "temp.exe"
   "temp.exe.manifest"

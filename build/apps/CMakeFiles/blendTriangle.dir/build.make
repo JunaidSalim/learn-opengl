@@ -71,29 +71,29 @@ include apps/CMakeFiles/blendTriangle.dir/flags.make
 apps/CMakeFiles/blendTriangle.dir/codegen:
 .PHONY : apps/CMakeFiles/blendTriangle.dir/codegen
 
-apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj: apps/CMakeFiles/blendTriangle.dir/flags.make
-apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj: apps/CMakeFiles/blendTriangle.dir/includes_CXX.rsp
-apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/blendTriangle.cpp
-apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj: apps/CMakeFiles/blendTriangle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj -MF CMakeFiles\blendTriangle.dir\src\blendTriangle.cpp.obj.d -o CMakeFiles\blendTriangle.dir\src\blendTriangle.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\blendTriangle.cpp
+apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj: apps/CMakeFiles/blendTriangle.dir/flags.make
+apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj: apps/CMakeFiles/blendTriangle.dir/includes_CXX.rsp
+apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/triangles/blendTriangle.cpp
+apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj: apps/CMakeFiles/blendTriangle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj -MF CMakeFiles\blendTriangle.dir\src\triangles\blendTriangle.cpp.obj.d -o CMakeFiles\blendTriangle.dir\src\triangles\blendTriangle.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangles\blendTriangle.cpp
 
-apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.i"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\blendTriangle.cpp > CMakeFiles\blendTriangle.dir\src\blendTriangle.cpp.i
+apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.i"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangles\blendTriangle.cpp > CMakeFiles\blendTriangle.dir\src\triangles\blendTriangle.cpp.i
 
-apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.s"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\blendTriangle.cpp -o CMakeFiles\blendTriangle.dir\src\blendTriangle.cpp.s
+apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.s"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\triangles\blendTriangle.cpp -o CMakeFiles\blendTriangle.dir\src\triangles\blendTriangle.cpp.s
 
 # Object files for target blendTriangle
 blendTriangle_OBJECTS = \
-"CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj"
+"CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj"
 
 # External object files for target blendTriangle
 blendTriangle_EXTERNAL_OBJECTS =
 
-apps/blendTriangle.exe: apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj
+apps/blendTriangle.exe: apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj
 apps/blendTriangle.exe: apps/CMakeFiles/blendTriangle.dir/build.make
 apps/blendTriangle.exe: libs/external_libs/glad/libglad.a
 apps/blendTriangle.exe: libs/external_libs/glfw-3.4/src/libglfw3.a

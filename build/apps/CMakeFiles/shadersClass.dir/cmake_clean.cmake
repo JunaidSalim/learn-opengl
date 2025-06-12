@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj"
-  "CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj.d"
+  "CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj"
+  "CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj.d"
   "libshadersClass.dll.a"
   "shadersClass.exe"
   "shadersClass.exe.manifest"

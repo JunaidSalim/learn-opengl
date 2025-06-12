@@ -71,29 +71,29 @@ include apps/CMakeFiles/shadersClass.dir/flags.make
 apps/CMakeFiles/shadersClass.dir/codegen:
 .PHONY : apps/CMakeFiles/shadersClass.dir/codegen
 
-apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj: apps/CMakeFiles/shadersClass.dir/flags.make
-apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj: apps/CMakeFiles/shadersClass.dir/includes_CXX.rsp
-apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders_class.cpp
-apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj: apps/CMakeFiles/shadersClass.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj -MF CMakeFiles\shadersClass.dir\src\shaders_class.cpp.obj.d -o CMakeFiles\shadersClass.dir\src\shaders_class.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders_class.cpp
+apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj: apps/CMakeFiles/shadersClass.dir/flags.make
+apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj: apps/CMakeFiles/shadersClass.dir/includes_CXX.rsp
+apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders/shaders_class.cpp
+apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj: apps/CMakeFiles/shadersClass.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj -MF CMakeFiles\shadersClass.dir\src\shaders\shaders_class.cpp.obj.d -o CMakeFiles\shadersClass.dir\src\shaders\shaders_class.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders\shaders_class.cpp
 
-apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shadersClass.dir/src/shaders_class.cpp.i"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders_class.cpp > CMakeFiles\shadersClass.dir\src\shaders_class.cpp.i
+apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.i"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders\shaders_class.cpp > CMakeFiles\shadersClass.dir\src\shaders\shaders_class.cpp.i
 
-apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shadersClass.dir/src/shaders_class.cpp.s"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders_class.cpp -o CMakeFiles\shadersClass.dir\src\shaders_class.cpp.s
+apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.s"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\shaders\shaders_class.cpp -o CMakeFiles\shadersClass.dir\src\shaders\shaders_class.cpp.s
 
 # Object files for target shadersClass
 shadersClass_OBJECTS = \
-"CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj"
+"CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj"
 
 # External object files for target shadersClass
 shadersClass_EXTERNAL_OBJECTS =
 
-apps/shadersClass.exe: apps/CMakeFiles/shadersClass.dir/src/shaders_class.cpp.obj
+apps/shadersClass.exe: apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj
 apps/shadersClass.exe: apps/CMakeFiles/shadersClass.dir/build.make
 apps/shadersClass.exe: libs/external_libs/glad/libglad.a
 apps/shadersClass.exe: libs/external_libs/glfw-3.4/src/libglfw3.a
@@ -106,7 +106,7 @@ apps/shadersClass.exe: apps/CMakeFiles/shadersClass.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable shadersClass.exe"
 	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\shadersClass.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying shader files to shadersClass build directory"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders.vs C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders.fs C:/Users/JS/Desktop/OpenGL_Game/build/apps
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders/shaders.vs C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders/shaders.fs C:/Users/JS/Desktop/OpenGL_Game/build/apps
 
 # Rule to build all files generated by this target.
 apps/CMakeFiles/shadersClass.dir/build: apps/shadersClass.exe

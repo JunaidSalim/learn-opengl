@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/JS/Desktop/OpenGL_Game/apps/src/blendTriangle.cpp" "apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj" "gcc" "apps/CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj.d"
+  "C:/Users/JS/Desktop/OpenGL_Game/apps/src/triangles/blendTriangle.cpp" "apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj" "gcc" "apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

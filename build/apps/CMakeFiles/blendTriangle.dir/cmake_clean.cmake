@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj"
-  "CMakeFiles/blendTriangle.dir/src/blendTriangle.cpp.obj.d"
+  "CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj"
+  "CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj.d"
   "blendTriangle.exe"
   "blendTriangle.exe.manifest"
   "blendTriangle.pdb"

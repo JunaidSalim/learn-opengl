@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/JS/Desktop/OpenGL_Game/apps/src/shadersUniform.cpp" "apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj" "gcc" "apps/CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj.d"
+  "C:/Users/JS/Desktop/OpenGL_Game/apps/src/shaders/shadersUniform.cpp" "apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj" "gcc" "apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -44,6 +44,13 @@ C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glfw-3.4/docs/CMakeFile
 C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glfw-3.4/docs/CMakeFiles/install.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glfw-3.4/docs/CMakeFiles/install/local.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glfw-3.4/docs/CMakeFiles/install/strip.dir
+C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/stb_image/CMakeFiles/stb_image.dir
+C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/stb_image/CMakeFiles/edit_cache.dir
+C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/stb_image/CMakeFiles/rebuild_cache.dir
+C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/stb_image/CMakeFiles/list_install_components.dir
+C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/stb_image/CMakeFiles/install.dir
+C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/stb_image/CMakeFiles/install/local.dir
+C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/stb_image/CMakeFiles/install/strip.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/libs/internal_libs/CMakeFiles/edit_cache.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/libs/internal_libs/CMakeFiles/rebuild_cache.dir
 C:/Users/JS/Desktop/OpenGL_Game/build/libs/internal_libs/CMakeFiles/list_install_components.dir

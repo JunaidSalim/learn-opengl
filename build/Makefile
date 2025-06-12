@@ -213,6 +213,19 @@ update_mappings/fast:
 .PHONY : update_mappings/fast
 
 #=============================================================================
+# Target rules for targets named stb_image
+
+# Build rule for target.
+stb_image: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stb_image
+.PHONY : stb_image
+
+# fast build rule for target.
+stb_image/fast:
+	$(MAKE) $(MAKESILENT) -f libs\external_libs\stb_image\CMakeFiles\stb_image.dir\build.make libs/external_libs/stb_image/CMakeFiles/stb_image.dir/build
+.PHONY : stb_image/fast
+
+#=============================================================================
 # Target rules for targets named shaders
 
 # Build rule for target.
@@ -324,6 +337,7 @@ help:
 	@echo ... shaders
 	@echo ... shadersClass
 	@echo ... shadersUniform
+	@echo ... stb_image
 	@echo ... temp
 	@echo ... triangle
 .PHONY : help

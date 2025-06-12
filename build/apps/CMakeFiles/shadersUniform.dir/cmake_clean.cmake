@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj"
-  "CMakeFiles/shadersUniform.dir/src/shadersUniform.cpp.obj.d"
+  "CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj"
+  "CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj.d"
   "libshadersUniform.dll.a"
   "shadersUniform.exe"
   "shadersUniform.exe.manifest"

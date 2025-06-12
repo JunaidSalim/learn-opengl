@@ -71,29 +71,29 @@ include apps/CMakeFiles/temp.dir/flags.make
 apps/CMakeFiles/temp.dir/codegen:
 .PHONY : apps/CMakeFiles/temp.dir/codegen
 
-apps/CMakeFiles/temp.dir/src/temp.cpp.obj: apps/CMakeFiles/temp.dir/flags.make
-apps/CMakeFiles/temp.dir/src/temp.cpp.obj: apps/CMakeFiles/temp.dir/includes_CXX.rsp
-apps/CMakeFiles/temp.dir/src/temp.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/temp.cpp
-apps/CMakeFiles/temp.dir/src/temp.cpp.obj: apps/CMakeFiles/temp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/temp.dir/src/temp.cpp.obj"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/temp.dir/src/temp.cpp.obj -MF CMakeFiles\temp.dir\src\temp.cpp.obj.d -o CMakeFiles\temp.dir\src\temp.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\temp.cpp
+apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj: apps/CMakeFiles/temp.dir/flags.make
+apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj: apps/CMakeFiles/temp.dir/includes_CXX.rsp
+apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj: C:/Users/JS/Desktop/OpenGL_Game/apps/src/temp/temp.cpp
+apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj: apps/CMakeFiles/temp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj -MF CMakeFiles\temp.dir\src\temp\temp.cpp.obj.d -o CMakeFiles\temp.dir\src\temp\temp.cpp.obj -c C:\Users\JS\Desktop\OpenGL_Game\apps\src\temp\temp.cpp
 
-apps/CMakeFiles/temp.dir/src/temp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/temp.dir/src/temp.cpp.i"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\temp.cpp > CMakeFiles\temp.dir\src\temp.cpp.i
+apps/CMakeFiles/temp.dir/src/temp/temp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/temp.dir/src/temp/temp.cpp.i"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JS\Desktop\OpenGL_Game\apps\src\temp\temp.cpp > CMakeFiles\temp.dir\src\temp\temp.cpp.i
 
-apps/CMakeFiles/temp.dir/src/temp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/temp.dir/src/temp.cpp.s"
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\temp.cpp -o CMakeFiles\temp.dir\src\temp.cpp.s
+apps/CMakeFiles/temp.dir/src/temp/temp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/temp.dir/src/temp/temp.cpp.s"
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build\apps && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JS\Desktop\OpenGL_Game\apps\src\temp\temp.cpp -o CMakeFiles\temp.dir\src\temp\temp.cpp.s
 
 # Object files for target temp
 temp_OBJECTS = \
-"CMakeFiles/temp.dir/src/temp.cpp.obj"
+"CMakeFiles/temp.dir/src/temp/temp.cpp.obj"
 
 # External object files for target temp
 temp_EXTERNAL_OBJECTS =
 
-apps/temp.exe: apps/CMakeFiles/temp.dir/src/temp.cpp.obj
+apps/temp.exe: apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj
 apps/temp.exe: apps/CMakeFiles/temp.dir/build.make
 apps/temp.exe: libs/external_libs/glad/libglad.a
 apps/temp.exe: libs/external_libs/glfw-3.4/src/libglfw3.a

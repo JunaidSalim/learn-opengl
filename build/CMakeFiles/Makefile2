@@ -144,21 +144,25 @@ libs/clean: libs/internal_libs/clean
 # Recursive "all" directory target.
 libs/external_libs/all: libs/external_libs/glad/all
 libs/external_libs/all: libs/external_libs/glfw-3.4/all
+libs/external_libs/all: libs/external_libs/stb_image/all
 .PHONY : libs/external_libs/all
 
 # Recursive "codegen" directory target.
 libs/external_libs/codegen: libs/external_libs/glad/codegen
 libs/external_libs/codegen: libs/external_libs/glfw-3.4/codegen
+libs/external_libs/codegen: libs/external_libs/stb_image/codegen
 .PHONY : libs/external_libs/codegen
 
 # Recursive "preinstall" directory target.
 libs/external_libs/preinstall: libs/external_libs/glad/preinstall
 libs/external_libs/preinstall: libs/external_libs/glfw-3.4/preinstall
+libs/external_libs/preinstall: libs/external_libs/stb_image/preinstall
 .PHONY : libs/external_libs/preinstall
 
 # Recursive "clean" directory target.
 libs/external_libs/clean: libs/external_libs/glad/clean
 libs/external_libs/clean: libs/external_libs/glfw-3.4/clean
+libs/external_libs/clean: libs/external_libs/stb_image/clean
 .PHONY : libs/external_libs/clean
 
 #=============================================================================
@@ -242,6 +246,25 @@ libs/external_libs/glfw-3.4/src/preinstall:
 libs/external_libs/glfw-3.4/src/clean: libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/clean
 libs/external_libs/glfw-3.4/src/clean: libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : libs/external_libs/glfw-3.4/src/clean
+
+#=============================================================================
+# Directory level rules for directory libs/external_libs/stb_image
+
+# Recursive "all" directory target.
+libs/external_libs/stb_image/all: libs/external_libs/stb_image/CMakeFiles/stb_image.dir/all
+.PHONY : libs/external_libs/stb_image/all
+
+# Recursive "codegen" directory target.
+libs/external_libs/stb_image/codegen: libs/external_libs/stb_image/CMakeFiles/stb_image.dir/codegen
+.PHONY : libs/external_libs/stb_image/codegen
+
+# Recursive "preinstall" directory target.
+libs/external_libs/stb_image/preinstall:
+.PHONY : libs/external_libs/stb_image/preinstall
+
+# Recursive "clean" directory target.
+libs/external_libs/stb_image/clean: libs/external_libs/stb_image/CMakeFiles/stb_image.dir/clean
+.PHONY : libs/external_libs/stb_image/clean
 
 #=============================================================================
 # Directory level rules for directory libs/internal_libs
@@ -384,7 +407,7 @@ libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/clean:
 libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs\external_libs\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\external_libs\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=39 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=41 "Built target update_mappings"
 .PHONY : libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -401,13 +424,45 @@ update_mappings: libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/
 # codegen rule for target.
 libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f libs\external_libs\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=39 "Finished codegen for target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=41 "Finished codegen for target update_mappings"
 .PHONY : libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/codegen
 
 # clean rule for target.
 libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean:
 	$(MAKE) $(MAKESILENT) -f libs\external_libs\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : libs/external_libs/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
+
+#=============================================================================
+# Target rules for target libs/external_libs/stb_image/CMakeFiles/stb_image.dir
+
+# All Build rule for target.
+libs/external_libs/stb_image/CMakeFiles/stb_image.dir/all:
+	$(MAKE) $(MAKESILENT) -f libs\external_libs\stb_image\CMakeFiles\stb_image.dir\build.make libs/external_libs/stb_image/CMakeFiles/stb_image.dir/depend
+	$(MAKE) $(MAKESILENT) -f libs\external_libs\stb_image\CMakeFiles\stb_image.dir\build.make libs/external_libs/stb_image/CMakeFiles/stb_image.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=35,36 "Built target stb_image"
+.PHONY : libs/external_libs/stb_image/CMakeFiles/stb_image.dir/all
+
+# Build rule for subdir invocation for target.
+libs/external_libs/stb_image/CMakeFiles/stb_image.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/external_libs/stb_image/CMakeFiles/stb_image.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles 0
+.PHONY : libs/external_libs/stb_image/CMakeFiles/stb_image.dir/rule
+
+# Convenience name for target.
+stb_image: libs/external_libs/stb_image/CMakeFiles/stb_image.dir/rule
+.PHONY : stb_image
+
+# codegen rule for target.
+libs/external_libs/stb_image/CMakeFiles/stb_image.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f libs\external_libs\stb_image\CMakeFiles\stb_image.dir\build.make libs/external_libs/stb_image/CMakeFiles/stb_image.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=35,36 "Finished codegen for target stb_image"
+.PHONY : libs/external_libs/stb_image/CMakeFiles/stb_image.dir/codegen
+
+# clean rule for target.
+libs/external_libs/stb_image/CMakeFiles/stb_image.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libs\external_libs\stb_image\CMakeFiles\stb_image.dir\build.make libs/external_libs/stb_image/CMakeFiles/stb_image.dir/clean
+.PHONY : libs/external_libs/stb_image/CMakeFiles/stb_image.dir/clean
 
 #=============================================================================
 # Target rules for target libs/internal_libs/shaders/CMakeFiles/shaders.dir
@@ -450,7 +505,7 @@ apps/CMakeFiles/triangle.dir/all: libs/external_libs/glad/CMakeFiles/glad.dir/al
 apps/CMakeFiles/triangle.dir/all: libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=37,38 "Built target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=39,40 "Built target triangle"
 .PHONY : apps/CMakeFiles/triangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -467,7 +522,7 @@ triangle: apps/CMakeFiles/triangle.dir/rule
 # codegen rule for target.
 apps/CMakeFiles/triangle.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=37,38 "Finished codegen for target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=39,40 "Finished codegen for target triangle"
 .PHONY : apps/CMakeFiles/triangle.dir/codegen
 
 # clean rule for target.
@@ -549,7 +604,7 @@ apps/CMakeFiles/temp.dir/all: libs/external_libs/glad/CMakeFiles/glad.dir/all
 apps/CMakeFiles/temp.dir/all: libs/external_libs/glfw-3.4/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=35,36 "Built target temp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=37,38 "Built target temp"
 .PHONY : apps/CMakeFiles/temp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -566,7 +621,7 @@ temp: apps/CMakeFiles/temp.dir/rule
 # codegen rule for target.
 apps/CMakeFiles/temp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=35,36 "Finished codegen for target temp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\JS\Desktop\OpenGL_Game\build\CMakeFiles --progress-num=37,38 "Finished codegen for target temp"
 .PHONY : apps/CMakeFiles/temp.dir/codegen
 
 # clean rule for target.

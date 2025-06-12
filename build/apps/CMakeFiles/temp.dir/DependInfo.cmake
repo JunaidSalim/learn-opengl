@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/JS/Desktop/OpenGL_Game/apps/src/temp.cpp" "apps/CMakeFiles/temp.dir/src/temp.cpp.obj" "gcc" "apps/CMakeFiles/temp.dir/src/temp.cpp.obj.d"
+  "C:/Users/JS/Desktop/OpenGL_Game/apps/src/temp/temp.cpp" "apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj" "gcc" "apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

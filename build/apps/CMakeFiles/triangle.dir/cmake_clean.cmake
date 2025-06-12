@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/triangle.dir/src/triangle.cpp.obj"
-  "CMakeFiles/triangle.dir/src/triangle.cpp.obj.d"
+  "CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj"
+  "CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj.d"
   "libtriangle.dll.a"
   "triangle.exe"
   "triangle.exe.manifest"
