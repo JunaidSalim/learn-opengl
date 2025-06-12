@@ -161,42 +161,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-apps/CMakeFiles/texture.dir/rule:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/texture.dir/rule
-.PHONY : apps/CMakeFiles/texture.dir/rule
+apps/CMakeFiles/movement.dir/rule:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/movement.dir/rule
+.PHONY : apps/CMakeFiles/movement.dir/rule
 
 # Convenience name for target.
-texture: apps/CMakeFiles/texture.dir/rule
-.PHONY : texture
+movement: apps/CMakeFiles/movement.dir/rule
+.PHONY : movement
 
 # fast build rule for target.
-texture/fast:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/build
-.PHONY : texture/fast
+movement/fast:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\movement.dir\build.make apps/CMakeFiles/movement.dir/build
+.PHONY : movement/fast
 
-src/texture/texture.obj: src/texture/texture.cpp.obj
-.PHONY : src/texture/texture.obj
+src/movement/movement.obj: src/movement/movement.cpp.obj
+.PHONY : src/movement/movement.obj
 
 # target to build an object file
-src/texture/texture.cpp.obj:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/src/texture/texture.cpp.obj
-.PHONY : src/texture/texture.cpp.obj
+src/movement/movement.cpp.obj:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\movement.dir\build.make apps/CMakeFiles/movement.dir/src/movement/movement.cpp.obj
+.PHONY : src/movement/movement.cpp.obj
 
-src/texture/texture.i: src/texture/texture.cpp.i
-.PHONY : src/texture/texture.i
+src/movement/movement.i: src/movement/movement.cpp.i
+.PHONY : src/movement/movement.i
 
 # target to preprocess a source file
-src/texture/texture.cpp.i:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/src/texture/texture.cpp.i
-.PHONY : src/texture/texture.cpp.i
+src/movement/movement.cpp.i:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\movement.dir\build.make apps/CMakeFiles/movement.dir/src/movement/movement.cpp.i
+.PHONY : src/movement/movement.cpp.i
 
-src/texture/texture.s: src/texture/texture.cpp.s
-.PHONY : src/texture/texture.s
+src/movement/movement.s: src/movement/movement.cpp.s
+.PHONY : src/movement/movement.s
 
 # target to generate assembly for a file
-src/texture/texture.cpp.s:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/src/texture/texture.cpp.s
-.PHONY : src/texture/texture.cpp.s
+src/movement/movement.cpp.s:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\movement.dir\build.make apps/CMakeFiles/movement.dir/src/movement/movement.cpp.s
+.PHONY : src/movement/movement.cpp.s
 
 # Help Target
 help:
@@ -210,10 +210,10 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... texture
-	@echo ... src/texture/texture.obj
-	@echo ... src/texture/texture.i
-	@echo ... src/texture/texture.s
+	@echo ... movement
+	@echo ... src/movement/movement.obj
+	@echo ... src/movement/movement.i
+	@echo ... src/movement/movement.s
 .PHONY : help
 
 

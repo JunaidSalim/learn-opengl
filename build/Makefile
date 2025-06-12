@@ -239,17 +239,17 @@ shaders/fast:
 .PHONY : shaders/fast
 
 #=============================================================================
-# Target rules for targets named texture
+# Target rules for targets named movement
 
 # Build rule for target.
-texture: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 texture
-.PHONY : texture
+movement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 movement
+.PHONY : movement
 
 # fast build rule for target.
-texture/fast:
-	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/build
-.PHONY : texture/fast
+movement/fast:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\movement.dir\build.make apps/CMakeFiles/movement.dir/build
+.PHONY : movement/fast
 
 # Help Target
 help:
@@ -267,9 +267,9 @@ help:
 	@echo ... update_mappings
 	@echo ... glad
 	@echo ... glfw
+	@echo ... movement
 	@echo ... shaders
 	@echo ... stb_image
-	@echo ... texture
 .PHONY : help
 
 
