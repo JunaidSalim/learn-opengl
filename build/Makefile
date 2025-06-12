@@ -239,82 +239,17 @@ shaders/fast:
 .PHONY : shaders/fast
 
 #=============================================================================
-# Target rules for targets named triangle
+# Target rules for targets named texture
 
 # Build rule for target.
-triangle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 triangle
-.PHONY : triangle
+texture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 texture
+.PHONY : texture
 
 # fast build rule for target.
-triangle/fast:
-	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/build
-.PHONY : triangle/fast
-
-#=============================================================================
-# Target rules for targets named blendTriangle
-
-# Build rule for target.
-blendTriangle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 blendTriangle
-.PHONY : blendTriangle
-
-# fast build rule for target.
-blendTriangle/fast:
-	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\blendTriangle.dir\build.make apps/CMakeFiles/blendTriangle.dir/build
-.PHONY : blendTriangle/fast
-
-#=============================================================================
-# Target rules for targets named rectangle
-
-# Build rule for target.
-rectangle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rectangle
-.PHONY : rectangle
-
-# fast build rule for target.
-rectangle/fast:
-	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/build
-.PHONY : rectangle/fast
-
-#=============================================================================
-# Target rules for targets named temp
-
-# Build rule for target.
-temp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 temp
-.PHONY : temp
-
-# fast build rule for target.
-temp/fast:
-	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/build
-.PHONY : temp/fast
-
-#=============================================================================
-# Target rules for targets named shadersUniform
-
-# Build rule for target.
-shadersUniform: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shadersUniform
-.PHONY : shadersUniform
-
-# fast build rule for target.
-shadersUniform/fast:
-	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/build
-.PHONY : shadersUniform/fast
-
-#=============================================================================
-# Target rules for targets named shadersClass
-
-# Build rule for target.
-shadersClass: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shadersClass
-.PHONY : shadersClass
-
-# fast build rule for target.
-shadersClass/fast:
-	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersClass.dir\build.make apps/CMakeFiles/shadersClass.dir/build
-.PHONY : shadersClass/fast
+texture/fast:
+	$(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/build
+.PHONY : texture/fast
 
 # Help Target
 help:
@@ -330,16 +265,11 @@ help:
 	@echo ... rebuild_cache
 	@echo ... uninstall
 	@echo ... update_mappings
-	@echo ... blendTriangle
 	@echo ... glad
 	@echo ... glfw
-	@echo ... rectangle
 	@echo ... shaders
-	@echo ... shadersClass
-	@echo ... shadersUniform
 	@echo ... stb_image
-	@echo ... temp
-	@echo ... triangle
+	@echo ... texture
 .PHONY : help
 
 
