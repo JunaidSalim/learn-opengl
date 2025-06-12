@@ -161,232 +161,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-apps/CMakeFiles/triangle.dir/rule:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/triangle.dir/rule
-.PHONY : apps/CMakeFiles/triangle.dir/rule
+apps/CMakeFiles/texture.dir/rule:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/texture.dir/rule
+.PHONY : apps/CMakeFiles/texture.dir/rule
 
 # Convenience name for target.
-triangle: apps/CMakeFiles/triangle.dir/rule
-.PHONY : triangle
+texture: apps/CMakeFiles/texture.dir/rule
+.PHONY : texture
 
 # fast build rule for target.
-triangle/fast:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/build
-.PHONY : triangle/fast
+texture/fast:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/build
+.PHONY : texture/fast
 
-# Convenience name for target.
-apps/CMakeFiles/blendTriangle.dir/rule:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/blendTriangle.dir/rule
-.PHONY : apps/CMakeFiles/blendTriangle.dir/rule
-
-# Convenience name for target.
-blendTriangle: apps/CMakeFiles/blendTriangle.dir/rule
-.PHONY : blendTriangle
-
-# fast build rule for target.
-blendTriangle/fast:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\blendTriangle.dir\build.make apps/CMakeFiles/blendTriangle.dir/build
-.PHONY : blendTriangle/fast
-
-# Convenience name for target.
-apps/CMakeFiles/rectangle.dir/rule:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/rectangle.dir/rule
-.PHONY : apps/CMakeFiles/rectangle.dir/rule
-
-# Convenience name for target.
-rectangle: apps/CMakeFiles/rectangle.dir/rule
-.PHONY : rectangle
-
-# fast build rule for target.
-rectangle/fast:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/build
-.PHONY : rectangle/fast
-
-# Convenience name for target.
-apps/CMakeFiles/temp.dir/rule:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/temp.dir/rule
-.PHONY : apps/CMakeFiles/temp.dir/rule
-
-# Convenience name for target.
-temp: apps/CMakeFiles/temp.dir/rule
-.PHONY : temp
-
-# fast build rule for target.
-temp/fast:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/build
-.PHONY : temp/fast
-
-# Convenience name for target.
-apps/CMakeFiles/shadersUniform.dir/rule:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/shadersUniform.dir/rule
-.PHONY : apps/CMakeFiles/shadersUniform.dir/rule
-
-# Convenience name for target.
-shadersUniform: apps/CMakeFiles/shadersUniform.dir/rule
-.PHONY : shadersUniform
-
-# fast build rule for target.
-shadersUniform/fast:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/build
-.PHONY : shadersUniform/fast
-
-# Convenience name for target.
-apps/CMakeFiles/shadersClass.dir/rule:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apps/CMakeFiles/shadersClass.dir/rule
-.PHONY : apps/CMakeFiles/shadersClass.dir/rule
-
-# Convenience name for target.
-shadersClass: apps/CMakeFiles/shadersClass.dir/rule
-.PHONY : shadersClass
-
-# fast build rule for target.
-shadersClass/fast:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersClass.dir\build.make apps/CMakeFiles/shadersClass.dir/build
-.PHONY : shadersClass/fast
-
-src/rectangles/rectangle.obj: src/rectangles/rectangle.cpp.obj
-.PHONY : src/rectangles/rectangle.obj
+src/texture/texture.obj: src/texture/texture.cpp.obj
+.PHONY : src/texture/texture.obj
 
 # target to build an object file
-src/rectangles/rectangle.cpp.obj:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.obj
-.PHONY : src/rectangles/rectangle.cpp.obj
+src/texture/texture.cpp.obj:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/src/texture/texture.cpp.obj
+.PHONY : src/texture/texture.cpp.obj
 
-src/rectangles/rectangle.i: src/rectangles/rectangle.cpp.i
-.PHONY : src/rectangles/rectangle.i
-
-# target to preprocess a source file
-src/rectangles/rectangle.cpp.i:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.i
-.PHONY : src/rectangles/rectangle.cpp.i
-
-src/rectangles/rectangle.s: src/rectangles/rectangle.cpp.s
-.PHONY : src/rectangles/rectangle.s
-
-# target to generate assembly for a file
-src/rectangles/rectangle.cpp.s:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\rectangle.dir\build.make apps/CMakeFiles/rectangle.dir/src/rectangles/rectangle.cpp.s
-.PHONY : src/rectangles/rectangle.cpp.s
-
-src/shaders/shadersUniform.obj: src/shaders/shadersUniform.cpp.obj
-.PHONY : src/shaders/shadersUniform.obj
-
-# target to build an object file
-src/shaders/shadersUniform.cpp.obj:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.obj
-.PHONY : src/shaders/shadersUniform.cpp.obj
-
-src/shaders/shadersUniform.i: src/shaders/shadersUniform.cpp.i
-.PHONY : src/shaders/shadersUniform.i
+src/texture/texture.i: src/texture/texture.cpp.i
+.PHONY : src/texture/texture.i
 
 # target to preprocess a source file
-src/shaders/shadersUniform.cpp.i:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.i
-.PHONY : src/shaders/shadersUniform.cpp.i
+src/texture/texture.cpp.i:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/src/texture/texture.cpp.i
+.PHONY : src/texture/texture.cpp.i
 
-src/shaders/shadersUniform.s: src/shaders/shadersUniform.cpp.s
-.PHONY : src/shaders/shadersUniform.s
-
-# target to generate assembly for a file
-src/shaders/shadersUniform.cpp.s:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersUniform.dir\build.make apps/CMakeFiles/shadersUniform.dir/src/shaders/shadersUniform.cpp.s
-.PHONY : src/shaders/shadersUniform.cpp.s
-
-src/shaders/shaders_class.obj: src/shaders/shaders_class.cpp.obj
-.PHONY : src/shaders/shaders_class.obj
-
-# target to build an object file
-src/shaders/shaders_class.cpp.obj:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersClass.dir\build.make apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.obj
-.PHONY : src/shaders/shaders_class.cpp.obj
-
-src/shaders/shaders_class.i: src/shaders/shaders_class.cpp.i
-.PHONY : src/shaders/shaders_class.i
-
-# target to preprocess a source file
-src/shaders/shaders_class.cpp.i:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersClass.dir\build.make apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.i
-.PHONY : src/shaders/shaders_class.cpp.i
-
-src/shaders/shaders_class.s: src/shaders/shaders_class.cpp.s
-.PHONY : src/shaders/shaders_class.s
+src/texture/texture.s: src/texture/texture.cpp.s
+.PHONY : src/texture/texture.s
 
 # target to generate assembly for a file
-src/shaders/shaders_class.cpp.s:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\shadersClass.dir\build.make apps/CMakeFiles/shadersClass.dir/src/shaders/shaders_class.cpp.s
-.PHONY : src/shaders/shaders_class.cpp.s
-
-src/temp/temp.obj: src/temp/temp.cpp.obj
-.PHONY : src/temp/temp.obj
-
-# target to build an object file
-src/temp/temp.cpp.obj:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/src/temp/temp.cpp.obj
-.PHONY : src/temp/temp.cpp.obj
-
-src/temp/temp.i: src/temp/temp.cpp.i
-.PHONY : src/temp/temp.i
-
-# target to preprocess a source file
-src/temp/temp.cpp.i:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/src/temp/temp.cpp.i
-.PHONY : src/temp/temp.cpp.i
-
-src/temp/temp.s: src/temp/temp.cpp.s
-.PHONY : src/temp/temp.s
-
-# target to generate assembly for a file
-src/temp/temp.cpp.s:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\temp.dir\build.make apps/CMakeFiles/temp.dir/src/temp/temp.cpp.s
-.PHONY : src/temp/temp.cpp.s
-
-src/triangles/blendTriangle.obj: src/triangles/blendTriangle.cpp.obj
-.PHONY : src/triangles/blendTriangle.obj
-
-# target to build an object file
-src/triangles/blendTriangle.cpp.obj:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\blendTriangle.dir\build.make apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.obj
-.PHONY : src/triangles/blendTriangle.cpp.obj
-
-src/triangles/blendTriangle.i: src/triangles/blendTriangle.cpp.i
-.PHONY : src/triangles/blendTriangle.i
-
-# target to preprocess a source file
-src/triangles/blendTriangle.cpp.i:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\blendTriangle.dir\build.make apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.i
-.PHONY : src/triangles/blendTriangle.cpp.i
-
-src/triangles/blendTriangle.s: src/triangles/blendTriangle.cpp.s
-.PHONY : src/triangles/blendTriangle.s
-
-# target to generate assembly for a file
-src/triangles/blendTriangle.cpp.s:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\blendTriangle.dir\build.make apps/CMakeFiles/blendTriangle.dir/src/triangles/blendTriangle.cpp.s
-.PHONY : src/triangles/blendTriangle.cpp.s
-
-src/triangles/triangle.obj: src/triangles/triangle.cpp.obj
-.PHONY : src/triangles/triangle.obj
-
-# target to build an object file
-src/triangles/triangle.cpp.obj:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.obj
-.PHONY : src/triangles/triangle.cpp.obj
-
-src/triangles/triangle.i: src/triangles/triangle.cpp.i
-.PHONY : src/triangles/triangle.i
-
-# target to preprocess a source file
-src/triangles/triangle.cpp.i:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.i
-.PHONY : src/triangles/triangle.cpp.i
-
-src/triangles/triangle.s: src/triangles/triangle.cpp.s
-.PHONY : src/triangles/triangle.s
-
-# target to generate assembly for a file
-src/triangles/triangle.cpp.s:
-	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\triangle.dir\build.make apps/CMakeFiles/triangle.dir/src/triangles/triangle.cpp.s
-.PHONY : src/triangles/triangle.cpp.s
+src/texture/texture.cpp.s:
+	cd /d C:\Users\JS\Desktop\OpenGL_Game\build && $(MAKE) $(MAKESILENT) -f apps\CMakeFiles\texture.dir\build.make apps/CMakeFiles/texture.dir/src/texture/texture.cpp.s
+.PHONY : src/texture/texture.cpp.s
 
 # Help Target
 help:
@@ -400,30 +210,10 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... blendTriangle
-	@echo ... rectangle
-	@echo ... shadersClass
-	@echo ... shadersUniform
-	@echo ... temp
-	@echo ... triangle
-	@echo ... src/rectangles/rectangle.obj
-	@echo ... src/rectangles/rectangle.i
-	@echo ... src/rectangles/rectangle.s
-	@echo ... src/shaders/shadersUniform.obj
-	@echo ... src/shaders/shadersUniform.i
-	@echo ... src/shaders/shadersUniform.s
-	@echo ... src/shaders/shaders_class.obj
-	@echo ... src/shaders/shaders_class.i
-	@echo ... src/shaders/shaders_class.s
-	@echo ... src/temp/temp.obj
-	@echo ... src/temp/temp.i
-	@echo ... src/temp/temp.s
-	@echo ... src/triangles/blendTriangle.obj
-	@echo ... src/triangles/blendTriangle.i
-	@echo ... src/triangles/blendTriangle.s
-	@echo ... src/triangles/triangle.obj
-	@echo ... src/triangles/triangle.i
-	@echo ... src/triangles/triangle.s
+	@echo ... texture
+	@echo ... src/texture/texture.obj
+	@echo ... src/texture/texture.i
+	@echo ... src/texture/texture.s
 .PHONY : help
 
 

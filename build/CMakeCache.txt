@@ -348,6 +348,9 @@ OpenGL_Game_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 OpenGL_Game_SOURCE_DIR:STATIC=C:/Users/JS/Desktop/OpenGL_Game
 
+//Dependencies for the target
+shaders_LIB_DEPENDS:STATIC=general;glad;general;glfw;
+
 
 ########################
 # INTERNAL cache entries

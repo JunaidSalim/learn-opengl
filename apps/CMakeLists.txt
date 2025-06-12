@@ -1,27 +1,28 @@
-add_executable(triangle src/triangles/triangle.cpp)
-add_executable(blendTriangle src/triangles/blendTriangle.cpp)
-add_executable(rectangle src/rectangles/rectangle.cpp)
-add_executable(temp src/temp/temp.cpp)
-add_executable(shadersUniform src/shaders/shadersUniform.cpp)
-add_executable(shadersClass src/shaders/shaders_class.cpp)
+add_executable(texture src/texture/texture.cpp)
 
-target_link_libraries(triangle PRIVATE glad glfw)
-target_link_libraries(blendTriangle PRIVATE glad glfw)
-target_link_libraries(rectangle PRIVATE glad glfw)
-target_link_libraries(temp PRIVATE glad glfw)
-target_link_libraries(shadersUniform PRIVATE glad glfw)
-target_link_libraries(shadersClass PRIVATE glad glfw shaders)
+target_link_libraries(texture PRIVATE glad glfw shaders stb_image)
 
-# Copy shader files to build directory
 set(SHADER_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/shaders/shaders.vs
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/shaders/shaders.fs
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/texture/shader.vs
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/texture/shader.fs
+)
+
+set(TEXTURE_FILES
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/texture/texture.jpg
 )
 
 # Copy shaders for executables that need them
-add_custom_command(TARGET shadersClass POST_BUILD
+add_custom_command(TARGET texture POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
     ${SHADER_FILES}
-    $<TARGET_FILE_DIR:shadersClass>
-    COMMENT "Copying shader files to shadersClass build directory"
+    $<TARGET_FILE_DIR:texture>
+    COMMENT "Copying shader files to texture build directory"
+)
+
+# Copy texture files for executables that need them
+add_custom_command(TARGET texture POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    ${TEXTURE_FILES}
+    $<TARGET_FILE_DIR:texture>
+    COMMENT "Copying texture files to texture build directory"
 )
