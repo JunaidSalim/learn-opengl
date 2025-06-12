@@ -39,6 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  # Include the install script for each subdirectory.
   include("C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glad/cmake_install.cmake")
   include("C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/glfw-3.4/cmake_install.cmake")
   include("C:/Users/JS/Desktop/OpenGL_Game/build/libs/external_libs/stb_image/cmake_install.cmake")
