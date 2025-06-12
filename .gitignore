@@ -1,0 +1,37 @@
+# Build artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+*.cmake
+*.cbp
+*.layout
+*.o
+*.d
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.log
+*.stackdump
+
+# IDE-specific files
+.vscode/
+.idea/
+*.vcxproj
+*.sln
+*.suo
+*.user
+*.vcxproj.filters
+*.vcxproj.user
+*.vs/
+
+# Other files
+*.swp
+*~
+# OS generated files
+Thumbs.db
