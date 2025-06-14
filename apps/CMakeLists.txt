@@ -15,7 +15,7 @@ function(create_app_executable APP_NAME)
         
         # Create the executable
         add_executable(${EXEC_NAME} ${SOURCE_FILE})        # Determine which libraries to link based on app requirements
-        if(${APP_NAME} MATCHES "coordinate|movement|texture|transformations|pad|mov3d|cube|10cubes")
+        if(${APP_NAME} MATCHES "coordinate|movement|texture|transformations|pad|mov3d|cube|10cubes|smiley")
             # Apps that need texture support and GLM
             target_link_libraries(${EXEC_NAME} PRIVATE glad glfw shaders stb_image glm-header-only)
             target_include_directories(${EXEC_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/libs/external_libs)
@@ -75,6 +75,7 @@ set(APP_DIRECTORIES
     mov3d
     cube
     10cubes
+    smiley
 )
 
 foreach(APP_DIR ${APP_DIRECTORIES})
