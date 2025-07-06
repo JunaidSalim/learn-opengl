@@ -1,4 +1,4 @@
-# OpenGL Learning and Experiments
+# learn-opengl
 
 This repository is a personal collection of OpenGL projects and experiments created while learning modern OpenGL and CMake. While following the book **"Learn OpenGL - Graphics Programming" by Joey de Vries** ([learnopengl.com](https://learnopengl.com/)), I also learned to use CMake for cross-platform C++ project management. This was a valuable learning experience, deepening my understanding of graphics programming, OpenGL, and build systems.
 
